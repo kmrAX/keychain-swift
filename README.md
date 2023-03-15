@@ -33,11 +33,11 @@ There are four ways you can add KeychainSwift to your project.
 
 #### Add source (iOS 7+)
 
-Simply add [KeychainSwiftDistrib.swift](https://github.com/evgenyneu/keychain-swift/blob/master/Distrib/KeychainSwiftDistrib.swift) file into your Xcode project.
+Simply add [KeychainSwiftDistrib.swift](https://github.com/kmrAX/keychain-swift/blob/master/Distrib/KeychainSwiftDistrib.swift) file into your Xcode project.
 
 #### Setup with Carthage (iOS 8+)
 
-Alternatively, add `github "evgenyneu/keychain-swift" ~> 20.0` to your Cartfile and run `carthage update`.
+Alternatively, add `github "kmrAX/keychain-swift" ~> 20.0` to your Cartfile and run `carthage update`.
 
 #### Setup with CocoaPods (iOS 8+)
 
@@ -51,12 +51,12 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
 #### Setup with Swift Package Manager
 
 * In Xcode select *File > Add Packages*.
-* Enter this project's URL: https://github.com/evgenyneu/keychain-swift.git
+* Enter this project's URL: https://github.com/kmrAX/keychain-swift.git
 
 
 ## Legacy Swift versions
 
-Setup a [previous version](https://github.com/evgenyneu/keychain-swift/wiki/Legacy-Swift-versions) of the library if you use an older version of Swift.
+Setup a [previous version](https://github.com/kmrAX/keychain-swift/wiki/Legacy-Swift-versions) of the library if you use an older version of Swift.
 
 
 ## Usage
@@ -116,7 +116,7 @@ keychain.set("Hello world", forKey: "key 1", withAccess: .accessibleWhenUnlocked
 
 You can use `.accessibleAfterFirstUnlock` if you need your app to access the keychain item while in the background. Note that it is less secure than the `.accessibleWhenUnlocked` option.
 
-See the list of all available [access options](https://github.com/evgenyneu/keychain-swift/blob/master/Sources/KeychainSwiftAccessOptions.swift).
+See the list of all available [access options](https://github.com/kmrAX/keychain-swift/blob/master/Sources/KeychainSwiftAccessOptions.swift).
 
 
 <h3 id="keychain_synchronization">Synchronizing keychain items with other devices</h3>
@@ -205,11 +205,11 @@ keychain.getData("my key", asReference: true)
 
 ## Using KeychainSwift from Objective-C
 
-[This manual](https://github.com/evgenyneu/keychain-swift/wiki/Using-KeychainSwift-in-Objective-C-project) describes how to use KeychainSwift in Objective-C apps.
+[This manual](https://github.com/kmrAX/keychain-swift/wiki/Using-KeychainSwift-in-Objective-C-project) describes how to use KeychainSwift in Objective-C apps.
 
 ## ❗️Known critical issue - call to action❗️
 
-It [has been reported](https://github.com/evgenyneu/keychain-swift/issues/15) that the library sometimes returns `nil`  instead of the stored Keychain value. It may be connected with [the Keychain issue](https://forums.developer.apple.com/thread/4743) reported on Apple developer forums. The issue is random and hard to reproduce. If you experienced this problem feel free to create an issue and share your story, so we can find solutions.
+It [has been reported](https://github.com/kmrAX/keychain-swift/issues/15) that the library sometimes returns `nil`  instead of the stored Keychain value. It may be connected with [the Keychain issue](https://forums.developer.apple.com/thread/4743) reported on Apple developer forums. The issue is random and hard to reproduce. If you experienced this problem feel free to create an issue and share your story, so we can find solutions.
 
 ## Video tutorial
 
@@ -219,7 +219,7 @@ Thanks to Alex Nagy from [rebeloper.com](https://rebeloper.com/) for creating th
 
 ## Demo app
 
-<img src="https://raw.githubusercontent.com/evgenyneu/keychain-swift/master/graphics/keychain-swift-demo-3.png" alt="Keychain Swift demo app" width="320">
+<img src="https://raw.githubusercontent.com/kmrAX/keychain-swift/master/graphics/keychain-swift-demo-3.png" alt="Keychain Swift demo app" width="320">
 
 ## Alternative solutions
 

@@ -11,12 +11,12 @@ Added `allKeys` property that returns all key names ([lucasmpaim](https://github
 
 ## 18.0.0 (2019-11-03)
 
-Removed deprecated `kSecAttrAccessibleAlways` and `kSecAttrAccessibleAlwaysThisDeviceOnly` access options (https://github.com/evgenyneu/keychain-swift/pull/122).
+Removed deprecated `kSecAttrAccessibleAlways` and `kSecAttrAccessibleAlwaysThisDeviceOnly` access options (https://github.com/kmrAX/keychain-swift/pull/122).
 
 
 ## 17.0.0 (2019-10-02)
 
-Added ability to run unit test from Swift Package Manager (https://github.com/evgenyneu/keychain-swift/pull/113).
+Added ability to run unit test from Swift Package Manager (https://github.com/kmrAX/keychain-swift/pull/113).
 
 
 ## 16.0.0 (2019-05-28)
@@ -51,7 +51,7 @@ Added Swift language version to the podspec file for CocoaPods.
 
 ## 10.0.0 (2017-10-30)
 
-Fixed a crash in `getData` when called simultaneously from different threads ([details](https://github.com/evgenyneu/keychain-swift/pull/68)).
+Fixed a crash in `getData` when called simultaneously from different threads ([details](https://github.com/kmrAX/keychain-swift/pull/68)).
 
 
 ## 9.0.0 (2017-09-23)
