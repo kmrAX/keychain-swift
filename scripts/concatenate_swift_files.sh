@@ -11,7 +11,7 @@
 #  4. In "Arguments" field specify the arguments, for example $PROJECT_DIR/YourSubDir $PROJECT_DIR/Distrib/Distrib.swift "// Your header"
 #  5. Build the target and it will concatenate your swift files into a single swift file.
 #
-#  You can see an example of using the script in this project: https://github.com/evgenyneu/moa
+#  You can see an example of using the script in this project: https://github.com/kmrAX/moa
 #
 #  Usage
 #  ------
