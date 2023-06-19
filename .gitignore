@@ -23,3 +23,5 @@ Carthage/Build
 # Swift package manager
 .build/
 Packages/
+.idea
+.idea/*
